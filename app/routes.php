@@ -12,7 +12,6 @@
 */
 
 // set home route
-Route::get('/', array('as' => 'home', function()
-{
-	return View::make('home');
-}));
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
+
+Route::get('/about', 'HomeController@about');
