@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'laravelbase',
+			'database'  => 'myseven',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',
