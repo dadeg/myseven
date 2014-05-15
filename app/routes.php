@@ -15,3 +15,5 @@
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
 
 Route::get('/about', 'HomeController@about');
+
+Route::resource('workouts', 'WorkoutsController');

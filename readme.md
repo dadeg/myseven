@@ -1,12 +1,13 @@
-This is an easy setup for Laravel with some commonly used packages, features, and routes already set up.
+this is an app for creating workouts.
 
 To use:
 
-1. $ git clone https://github.com/dadeg/laravel-starter
+1. $ git clone https://github.com/dadeg/myseven
 2. Set up DB details in app/config/database.php
 3. $ composer update
 4. $ php artisan migrate --package=rydurham/sentinel
 5. $ php artisan db:seed --class="SentinelDatabaseSeeder"
+6. $ php artisan migrate
 
 More details can be found at 
 

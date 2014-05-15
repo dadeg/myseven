@@ -1,0 +1,1 @@
+/home/devbox/myseven/app/views/workouts/edit.blade.php
