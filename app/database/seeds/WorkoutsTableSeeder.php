@@ -12,7 +12,8 @@ class WorkoutsTableSeeder extends Seeder {
 		foreach(range(1, 10) as $index)
 		{
 			Workout::create([
-
+                'title' =>  $faker->sentence(3),
+                'description' =>  $faker->text
 			]);
 		}
 	}
