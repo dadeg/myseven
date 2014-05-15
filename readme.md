@@ -4,7 +4,7 @@ To use:
 
 1. $ git clone https://github.com/dadeg/myseven
 2. Set up DB details in app/config/database.php
-3. $ composer update
+3. $ composer install
 4. $ php artisan migrate --package=rydurham/sentinel
 5. $ php artisan db:seed --class="SentinelDatabaseSeeder"
 6. $ php artisan migrate
